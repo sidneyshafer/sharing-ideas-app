@@ -1,8 +1,5 @@
 # Random Ideas Application
-
-This is a full stack web application for creating and sharing random ideas. It is a project I created in the Modern JS From the Beginning Udemy Course.
-
-The client-side was built with Webpack and includes a Node.js and Express REST API which connects to MongoDB.
+Developed a full stack web application designed for sharing information. Built with HTML, CSS, JavaScript, Node.js, Webpack on the client side and Express REST API connected to MongoDB on the server side.
 
 ![image](https://github.com/sidneyshafer/randomideas-app/assets/66838571/9a2d3f51-c3a0-4715-bcd1-f07c664a6460)
 
