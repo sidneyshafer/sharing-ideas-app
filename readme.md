@@ -1,4 +1,4 @@
-# [Random Ideas Application](https://moonlit-narwhal-bfa893.netlify.app)
+# Random Ideas Application
 A full stack web application designed for sharing information. Built with HTML, CSS, JavaScript, Node.js, Webpack on the client side and Express REST API connected to MongoDB on the server side.
 
 ![image](https://github.com/sidneyshafer/randomideas-app/assets/66838571/9a2d3f51-c3a0-4715-bcd1-f07c664a6460)
@@ -41,6 +41,9 @@ Rename `.env-example` to `.env` and add your MongoDB URI to the `.env` file.
 ```
 MONGO_URI=YOUR_URI
 ```
+
+## Attribution
+- Brad Traversy. [Modern JS From the Beginning](https://www.udemy.com/share/101Yp63@ok6XL3706ItbFpKv9usBNJg6igbb8Uny6z6VKBzjZ479WMWc37XxEiksCN9m1iqA3g==/), Udemy.
 
 ## License
 
