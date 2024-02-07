@@ -46,7 +46,6 @@ MONGO_URI=YOUR_URI
 - Brad Traversy. [Modern JS From the Beginning](https://www.udemy.com/share/101Yp63@ok6XL3706ItbFpKv9usBNJg6igbb8Uny6z6VKBzjZ479WMWc37XxEiksCN9m1iqA3g==/), Udemy.
 
 ## License
-
 The MIT License
 
 Copyright (c) 2023 Sidney Shafer
