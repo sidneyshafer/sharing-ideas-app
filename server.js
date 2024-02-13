@@ -24,7 +24,7 @@ app.use(cors({
 
 // Get home page
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to teh Random Ideas API' });
+    res.json({ message: 'Welcome to the Sharing Ideas API' });
 });
 
 const ideasRouter = require('./routes/ideas');
