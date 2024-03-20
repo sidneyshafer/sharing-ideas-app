@@ -36,7 +36,7 @@ To build front-end production files
 cd client
 npm run build
 ```
-The production build will be put into the `public` folder, whcih is the Express static folder.
+The production build will be put into the `public` folder, which is the Express static folder.
 
 ### Environment Variables
 Rename `.env-example` to `.env` and add your MongoDB URI to the `.env` file.
