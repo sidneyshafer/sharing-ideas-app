@@ -1,7 +1,9 @@
 # Sharing Ideas Application
 A full stack web application designed for sharing information. Built with HTML, CSS, JavaScript, Node.js, Webpack on the client side and Express REST API connected to MongoDB on the server side.
 
-![image](https://github.com/sidneyshafer/randomideas-app/assets/66838571/b2e3051c-2ce4-4af3-8614-36d85c34bbbf)
+![sharing-ideas-1](https://github.com/sidneyshafer/sharing-ideas-app/assets/66838571/fa1f6abb-2937-4698-9379-2b0d6ac20eb8)
+
+![sharing-ideas-form](https://github.com/sidneyshafer/sharing-ideas-app/assets/66838571/4a437e3d-9891-4681-92b4-773ded5eafa0)
 
 ## App Usage
 
