@@ -5,8 +5,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #333;
-  background-color: #f4f4f4;
+  color: #fff;
+  background-color: rgb(38, 70, 83);
   overflow-x: hidden;
 }
 
@@ -17,10 +17,16 @@ header {
   position: relative;
 }
 
+header h1 {
+  text-transform: uppercase;
+}
+
 #modal-btn {
   border: none;
-  background: none;
-  color: green;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  color: #fff;
   cursor: pointer;
   position: absolute;
   top: 10px;
@@ -36,14 +42,14 @@ header {
   height: 100%;
   width: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease;
 }
 
 .modal-box {
   margin: 10% auto;
   width: 600px;
-
-  background-color: steelblue;
+  background-color: #333;
   color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -66,9 +72,25 @@ form textarea,
 form select {
   width: 95%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  outline: none;
+  border: 1px solid #333;
+  background-color: rgba(225, 225, 225, 0.2);
+  font-family: inherit;
+  color: #fff;
+  border-radius: 10px;
   margin: 10px 0;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  outline: none;
+  border: 1px solid rgb(38, 70, 83);
+}
+
+form select option {
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.7);
 }
 
 form textarea {
@@ -83,19 +105,20 @@ form label {
 }
 
 .btn {
-  background-color: #333;
+  background-color: rgb(38, 70, 83);
   color: #fff;
   border: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  font-family: inherit;
   font-size: inherit;
   margin-top: 10px;
   width: 100%;
 }
 
 .btn:hover {
-  background-color: #000;
+  background-color: rgba(38, 70, 83, 0.9);
 }
 
 .container {
@@ -111,7 +134,7 @@ form label {
 
 .ideas .card {
   position: relative;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 10px;
   padding: 20px 15px;
   border-radius: 10px;
@@ -129,27 +152,27 @@ form label {
 }
 
 .tag-technology {
-  background: steelblue;
+  background: #006d77;
 }
 
 .tag-software {
-  background: coral;
+  background: #f94144;
 }
 
 .tag-business {
-  background: green;
+  background: #ee9b00;
 }
 
 .tag-education {
-  background: purple;
+  background: #4a4e69;
 }
 
 .tag-health {
-  background: red;
+  background: #588157;
 }
 
 .tag-inventions {
-  background: orange;
+  background: #ffbe0b;
 }
 
 .delete {
