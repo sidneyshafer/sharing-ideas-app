@@ -1,5 +1,5 @@
 # Sharing Ideas Application
-A full stack web application designed for sharing information. Built with HTML, CSS, JavaScript, and Webpack on the client side with a Node.js/Express REST API connected to MongoDB on the server side.
+A full stack web application for sharing information between multiple users. Built with HTML, CSS, JavaScript, and Webpack on the client side, and a Node.js/Express REST API that connects to MongoDB on the server side.
 
 ![sharing-ideas-1](https://github.com/sidneyshafer/sharing-ideas-app/assets/66838571/fa1f6abb-2937-4698-9379-2b0d6ac20eb8)
 
